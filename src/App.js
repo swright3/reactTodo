@@ -3,7 +3,7 @@ import TodoList from './TodoList.js';
 
 function App() {
   //Sets the initial state (no todos) and a function to change the state
-  const [todos, setTodos] = useState(['task 1','task 2'])
+  const [todos, setTodos] = useState([{id: 1, name: "task 1", complete: true}])
   //Fragment containing several elements. Only one thing can be returned by a function
   return (
     <> 
