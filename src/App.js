@@ -3,7 +3,13 @@ import TodoList from './TodoList.js';
 
 function App() {
   return (
-    <TodoList />
+    <>
+      <TodoList />
+      <input type='text'/>
+      <button>Add Todo</button>
+      <button>Clear completed todos</button>
+      <div>0 left todo</div>
+    </>
   );
 }
 
